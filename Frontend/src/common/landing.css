@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbar {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    
+
+}
+
+.project-logo-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 12px;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+
+}
+
+.topbar-head {
+    color: white;
+    position: absolute;
+    top: 6.5%;
+    left: 4.7%;
+    font-size: small;
+
+}
+
+.topbar-content-head {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    top: 40px;
+
+}
+.topbar-content-option {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    margin-top: -30px;
+   font-weight: 600;
+}
+
+
+.top-searchbar {
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 30%;
+    top: 4%;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.topbar-login-btn{
+    width: 7%;
+    padding: 15px;
+    position: absolute;
+    right: 10%;
+    top: 4%;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.topbar-login-btn:hover{
+     background-color: white;
+    color: black;
+}
+.topbar-signup-btn{
+    width: 7%;
+    padding: 15px;
+    position: absolute;
+    right: 1%;
+    top: 4%;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.topbar-signup-btn:hover{
+    background-color: white;
+    color: black;
+}
